@@ -18,3 +18,8 @@ class String
     self.split(/[.?!](?=[\s])|[.?!]\z/).count
   end
 end
+
+
+# alternative code for last test
+#arr = self.split(/[.?!](?=[\s])|[.?!]\z/)
+#arr.count
