@@ -1,13 +1,12 @@
 class Album
 
-  @@album_count = 0 
+  @@album_count = 0
 
   def release_date =(date)
     @date = date
   end
 
-  def release_date 
+  def release_date
     @release_date
   end
 end
-
