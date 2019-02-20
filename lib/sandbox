@@ -9,4 +9,10 @@ class Album
   def release_date
     @release_date
   end
+
+  def self.count
+    @@album_count
+  end
 end
+
+Album.count
